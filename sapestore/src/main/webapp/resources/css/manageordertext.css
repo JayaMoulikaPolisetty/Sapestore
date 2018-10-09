@@ -1,0 +1,134 @@
+.button1 {
+    background-color:  #21addd; /* Blue */
+    font: Sapient Centro Slab;
+    border: none;
+    color: white;
+    /*padding: 15px  ;*/
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+   /* size: a3;*/
+}
+.btn-primary{
+	background-color:  #21addd;
+	color: white;
+	border: none;
+}
+.button2 {
+    background-color:  #21addd; /* Blue */
+    font: Sapient Centro Slab;
+    border: none;
+    color: white;
+    /*padding: 15px  ;*/
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 15px;
+    margin-left:15px; 
+   /* size: a3;*/
+
+}
+#button3 {
+    background-color:  #21addd; /* Blue */
+    font: Sapient Centro Slab;
+    border: none;
+    color: white;
+    /*padding: 15px  ;*/
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+   /* size: a3;*/
+}
+#deliverbutton {
+    background-color:  #21addd; /* Blue */
+    font: Sapient Centro Slab;
+    border: none;
+    color: white;
+    /*padding: 15px  ;*/
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+   /* size: a3;*/
+}
+
+.button1:hover {
+    background-color:#88d7ef;
+		 
+}
+.button2:hover {
+    background-color:#88d7ef;
+		
+}
+#button3:hover {
+    background-color:#88d7ef;
+		 
+}
+#deliverybutton:hover {
+    background-color:#88d7ef;
+		 
+}
+h3{
+	padding-left:180px;
+}
+hr{
+	width:75%;
+	color:#b3b3b3;
+		
+}
+.header{
+	width: 1008px;
+	margin: auto;
+	background-color:#f2f2f2;
+	height:820px;
+}
+.heading{
+	color:black;
+	font-size: 22px;
+	margin-left:auto;
+	text-align:left;
+}
+.outer{
+		padding-left: 180px;
+		background-color: #f2f2f2;
+	}
+
+.table{
+	padding-left: auto;
+	padding-right: auto;
+		background-color: #f2f2f2;
+}
+
+
+table{
+	border-width:1px;
+	border-style: dashed;
+	width : 94%;
+	text-align :center; 
+	margin-left: 30px;
+}
+th,td{
+	text-align: center ;
+	height: 50px;
+}
+th,td{
+	border-left: none;
+	border-right: none;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+}
+
+ .tabh {
+	margin-right: 1%;
+}  
+
+
+

@@ -1,0 +1,272 @@
+/* 
+body {font-family: Arial, Helvetica, sans-serif;
+	min-width:1280px;
+ }
+
+The Modal (background)
+.text{
+	size:18px;
+	font-weight:medium;
+	color: #1d1d1d;
+	font-family: SapientCentroSlab;
+	
+	
+}
+.input{
+	display: block;
+	width: 90%;
+	margin: auto;
+	background-color: rgb(238, 238, 238);
+	height: 30px; 
+	border: 1px solid rgb(197, 195, 195);
+    border-radius: 5px;
+	padding:3px;
+	text-indent:4px;
+	
+}
+a{
+	size:14px;
+}
+#loginbtn{
+	background-color: #21addd;
+	display: block;
+	width: 90%;
+	margin: auto;
+	height: 30px; 
+	border: 2px solid #21addd;
+    border-radius: 2px;
+	color:white;
+	font-weight:bold;
+	padding:3px;
+	
+}
+#loginbtn:hover{
+		//background-color:#88d7ef;
+		border: 2px solid #88d7ef;
+	}
+#btnclose:hover{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#regbtn{
+	background-color:#de2728;
+	height: 30px; 
+	color:white;
+	font-weight:bold; 
+	border: 2px solid #de2728;
+    border-radius: 2px;
+}
+#regbtn:hover{
+	//background-color:#F65757;
+	border: 2px solid #FF9696;
+	
+}
+#btnclose{
+	height:32px;
+	width:32px;
+	position:relative;
+	margin-top:-5%;
+	margin-left:-20%;
+	
+}
+
+#label3{
+	size:22px;
+	width: 90%;
+	font-weight:bold;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.modal {
+    
+    position: fixed; Stay in place
+    z-index: 1; Sit on top
+    padding-top: 100px; Location of the box
+    left: 0;
+    top: 0;
+    width: 100%; Full width
+    height: 100%; Full height
+    overflow: auto; Enable scroll if needed
+    background-color: rgb(0,0,0); Fallback color
+    background-color: rgba(0,0,0,0.4); Black w/ opacity
+	
+}
+
+Modal Content
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;	
+	margin-top:80px;
+    border-radius: 5px;
+	
+}
+
+
+
+The Close Button
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f5f5f5;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+#loginbtn{
+	background-color: #21addd;
+	display: block;
+	width: 90%;
+	margin: auto;
+	height: 30px; 
+	border: 2px solid #21addd;
+    border-radius: 2px;
+	color:white;
+	font-weight:bold;
+	padding:3px;
+	
+}
+#loginbtn :hover {
+		background-color:#88d7ef;
+		border: 2px solid #88d7ef;
+	}
+
+#btnclose:hover{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#regbtn{
+	background-color:#de2728;
+	display: block;
+	width: 90%;
+	margin: auto;
+	height: 30px; 
+	color:white;
+	font-weight:bold; 
+	border: 2px solid #de2728;
+    border-radius: 2px;
+    padding:3px;
+}
+#regbtn:hover{
+	background-color:#F65757;
+	border: 2px solid #FF9696;
+	
+}
+#btnclose{
+	height:32px;
+	width:32px;
+	position:relative;
+	margin-top:-5%;
+	margin-left:-20%;
+	
+}
+
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #f5f5f5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #f5f5f5, #f5f5f5);
+  background: -moz-linear-gradient(right, #f5f5f5, #f5f5f5);
+  background: -o-linear-gradient(right, #f5f5f5, #f5f5f5);
+  background: linear-gradient(to left, #f5f5f5, #f5f5f5);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+#forgotPassword{
+  margin-left: 40%;
+}
+#reg{
+    margin-left: 40%;
+}

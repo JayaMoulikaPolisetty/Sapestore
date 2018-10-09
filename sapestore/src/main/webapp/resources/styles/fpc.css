@@ -1,0 +1,92 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.text{
+    size:18px;
+    font-weight:medium;
+    color: #1d1d1d;
+    font-family: sapient;
+    margin-left: 12px;
+    
+}
+.input{
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+    height: 30px; 
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 0px;
+    padding:3px;
+    
+    
+}
+#submitbtn{
+    background-color: #21addd;
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 30px; 
+    border: 2px solid #21addd;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+#submitbtn:hover{
+        //background-color:#88d7ef;
+        border: 2px solid #88d7ef;
+    }
+
+
+#btnclose{
+    height:32px;
+    width:32px;
+    margin-left:405px;
+    margin-top:-35px;
+
+    position: absolute;
+}
+
+.modal {
+    
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    margin-top:80px;
+    
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

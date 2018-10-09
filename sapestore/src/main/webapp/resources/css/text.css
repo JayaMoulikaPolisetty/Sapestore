@@ -1,0 +1,64 @@
+#button1 {
+    background-color:  #21addd; /* Blue */
+    font: Sapient Centro Slab;
+    border: none;
+    color: white;
+    /*padding: 15px  ;*/
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+   /* size: a3;*/
+}
+#button2 {
+    background-color:  #21addd; /* Blue */
+    font: Sapient Centro Slab;
+    border: none;
+    color: white;
+    /*padding: 15px  ;*/
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 15px;
+    margin-left:15px; 
+   /* size: a3;*/
+
+}
+#button1:hover {
+    background-color:#88d7ef;
+		 
+}
+#button2:hover {
+    background-color:#88d7ef;
+		
+}
+
+
+
+table{
+	border-width:1px;
+	border-style: dashed;
+	width : 94%;
+	text-align :center; 
+	margin-left: 30px;
+}
+th,td{
+	text-align: center ;
+	height: 50px;
+}
+th,td{
+	border-left: none;
+	border-right: none;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+}
+div.content{
+   
+
+}
+
+
+
+

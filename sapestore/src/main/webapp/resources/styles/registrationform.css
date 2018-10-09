@@ -1,0 +1,88 @@
+	button{
+    
+    font-size: 22px;
+    font-family: "Sapient Centro Slab";
+    color: white;
+    width:15%;
+	background-color: #21addd;
+	font-weight: bold;	
+	margin-left: 10%;
+	display: block;
+}
+
+h1{
+	font-size: 22px;
+	font-family: "Sapient Centro Slab";
+    font-weight: Medium;
+    color: #040707;
+    margin-left: 20%;
+}
+
+#label2 
+{    
+   display: inline;
+   width: 30%;
+}
+.active a {
+
+  background-color: #E3F0F2 !important;
+
+}
+
+
+
+ /* #label3{
+ 	margin-left: 50%;
+ 	display: inline;
+ 	width: 20%;  
+    padding: 15px;
+    color: #1d1d1d;
+    font-family:"SapientSansMedium" ;  
+ 
+ } */
+
+.inputData input{
+ border-radius: 4px;
+}
+
+.inputData {
+	display: flex;
+}
+
+#label1{
+    
+	color: red;
+}
+.zipsize input{
+ 	width: 75px;
+  
+ }
+
+.color-red{
+	color: red;
+}
+
+/* header, footer {
+
+    padding: 1.5em;
+    color: red;
+    background-color: black;
+    clear: left;
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

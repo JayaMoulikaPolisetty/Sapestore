@@ -1,0 +1,16 @@
+server:
+  port: 0
+spring:
+  application:
+    name: book-service
+  datasource:
+   
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 
+    url: jdbc:mysql://10.150.222.61:3306/Book_Demo_DB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
